@@ -1,0 +1,67 @@
+body {
+    background-color: #f6f9fc;
+}
+
+h1 {
+    display: inline;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+}
+
+#nav {
+  background-color: #fff;
+  border-bottom: 1px solid #d0d4d9;
+  position: fixed;
+  position: relative;
+  width: 100%;
+}
+
+#nav div {
+  display: inline;
+}
+
+#content {
+  padding-top: 10px;
+}
+
+#content1{
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+#content2 {
+  padding-bottom: 60px;
+}
+
+#content3 {
+  padding-bottom:60px;
+}
+
+#content3a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content7 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#modalsignin {
+  background-color: #f6f9fc;
+}
+
+.rightnav {
+  float:right;
+}
+
+@media (max-width: 600px) {
+  #title {
+    visibility: hidden;
+  }
+}
