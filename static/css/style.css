@@ -3,7 +3,11 @@ body {
 }
 
 h1 {
-    display: inline;
+    display: inline-block;
+}
+
+h6 {
+  display: inline-block;
 }
 
 img {
@@ -16,8 +20,6 @@ img {
 #nav {
   background-color: #fff;
   border-bottom: 1px solid #d0d4d9;
-  position: fixed;
-  position: relative;
   width: 100%;
 }
 
@@ -62,6 +64,20 @@ img {
 
 @media (max-width: 600px) {
   #title {
-    visibility: hidden;
+    display:none
   }
+}
+
+#profilename {
+  padding-top: 20px;
+  width:100%;
+}
+#profilebody {
+  padding-top: 20px;
+}
+
+#profileedit {
+  background-color: #fff;
+  border-bottom: 1px solid #d0d4d9;
+  width: 100%;
 }
